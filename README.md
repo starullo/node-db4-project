@@ -55,3 +55,25 @@ Build the following endpoints. Write any additional data access helpers as neede
 Follow these steps for completing your project.
 
 - [ ] Submit a pull request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+
+RECIPES
+id
+name
+
+INGREDIENTS
+id
+name
+
+STEPS
+id
+step-text
+sequence#
+recipeID(fk)
+ingId(fk)
+
+INGREDIENT STEPS
+id
+quantity
+ing_id(fk)
+step_id(fk)
+
